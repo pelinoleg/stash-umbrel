@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: stash
+name: Stash
+tagline: Media Management and Streaming Server
+icon: https://svgshare.com/i/17iF.svg
+category: media
+version: "1.0.0"
+port: 9999
+description: >-
+  A Docker container for Stash, allowing you to manage, stream, and organize your media collection.
+
+developer: Pelin Oleg
+website: https://github.com/pelinoleg/stash-umbrel
+submitter: Pelin Oleg
+submission: https://github.com/pelinoleg/stash-umbrel
+repo: https://github.com/pelinoleg/stash-umbrel
+support: https://github.com/pelinoleg/stash-umbrel/issues
+
+gallery:
+  - https://stashapp.cc/images/editScene.png
+
+releaseNotes: >-
+  Initial release of Stash on Umbrel.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
