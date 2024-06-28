@@ -1,21 +1,4 @@
 version: '3.7'
-
-services:
-  funkwhale:
-    image: funkwhale/funkwhale
-    container_name: funkwhale
-    environment:
-      - FUNKWHALE_HOSTNAME=localhost  # Можно заменить на ваше доменное имя или оставить localhost для локального тестирования
-      - NESTED_PROXY=0
-    volumes:
-      - /home/umbrel/umbrel/my-configs/funkwhale-config:/data  # Замените /path/to/data на путь к вашим данным
-      - /home/umbrel/umbrel/data/storage/Deemix:/music:ro  # Замените /path/to/music на путь к вашей музыке
-    ports:
-      - "3030:3030"
-    restart: unless-stopped
-
-
-version: '3.7'
 services:
   stash:
     image: stashapp/stash:latest
